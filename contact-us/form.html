@@ -320,8 +320,8 @@ div.thumbnail .glyphicon-ok-circle{
                       <div class='form-group recaptcha'>
                         <script type="text/javascript">
                           function renderReCaptcha(){
-                            var jfKey = '6Ldh_QkTAAAAAA1WdrF09PX4bYuZklOKqzAZ916H', // when form loaded from jqueryform.com
-                            realKey = '6LcISB0UAAAAAF5qHhkpQP9FOezlsCcrU9V5XtdL',
+                            var jfKey = '', // when form loaded from jqueryform.com
+                            realKey = '',
                             theme = 'light',
                             key = -1 !== location.href.indexOf('jqueryform.com/') ? jfKey : realKey;
                             grecaptcha.render( document.getElementById('g-recaptcha'), {
@@ -331,7 +331,7 @@ div.thumbnail .glyphicon-ok-circle{
                           };
                         </script>
                         <script src="https://www.google.com/recaptcha/api.js?hl=&onload=renderReCaptcha&render=explicit" async defer></script>
-                        <div id='g-recaptcha' class='g-recaptcha col_field' data-theme='light' data-sitekey='6LcISB0UAAAAAF5qHhkpQP9FOezlsCcrU9V5XtdL'></div>
+                        <div id='g-recaptcha' class='g-recaptcha col_field' data-theme='light' data-sitekey=''></div>
                       </div>
 
 
